@@ -1,0 +1,1 @@
+var USE_BOOT_ALERT = 1;

@@ -1,0 +1,9 @@
+.fixed-table-pagination .page-list {
+display: inline-block;
+}
+.btn-group{
+width:auto;
+}
+.page-size,.caret{
+color:#fff;	
+}

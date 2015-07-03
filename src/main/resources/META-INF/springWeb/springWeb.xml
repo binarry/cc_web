@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:zsmartcc-mvc="http://www.message.com/schema/zsmartcc-mvc"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-2.5.xsd
+ http://www.message.com/schema/zsmartcc-mvc
+http://www.message.com/schema/zsmartcc-mvc/zsmartcc-mvc-1.0.xsd
+http://www.springframework.org/schema/mvc 
+http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+	<context:component-scan base-package="com.ztesoft.zsmartcity.cc.*.web" />
+
+	<!-- tiles 配置 start -->
+	<!-- 与传统的springMVC和tiles配置一致 -->
+	<!-- 配置tiles页面解析器 -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.tiles3.TilesView" />
+	</bean>
+
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver" />
+		
+	
+
+	<!-- tiles配置器 <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer"> 
+		<property name="definitions"> <list> <value>/WEB-INF/tiles-defs/main.xml</value> 
+		</list> </property> <property name="preparerFactoryClass" value="org.springframework.web.servlet.view.tiles3.SpringBeanPreparerFactory"/> 
+		</bean> -->
+
+	<zsmartcc-mvc:mvc>
+		<!-- 配置web请求参数的封装,详见**备注1**
+		 <message-mvc:argument-resolvers> 
+		 <bean class="message.security.annotation.resolver.CurrentAccountResolver" /> 
+			 </message-mvc:argument-resolvers> -->
+		<!-- 配置web请求的参数转换成对象的转换器,详见**备注2** -->
+		<zsmartcc-mvc:converters>
+			<bean class="message.mvc.convert.EnumConverterFactory" />
+		</zsmartcc-mvc:converters>
+		<!-- 配置拦截器 <message-mvc:interceptors> 
+		<bean class="message.security.core.LoginInterceptor" />
+			 </message-mvc:interceptors> -->
+		<!-- 配置spring restful的swagger服务 
+		<message-mvc:swagger swaggerEnable="true" /> -->
+	</zsmartcc-mvc:mvc> 
+	<mvc:resources mapping="/images/**" location="/images/"/> 
+	<mvc:resources mapping="/fonts/**" location="/fonts/"/>
+	<mvc:resources mapping="/js/**" location="/js/"/>
+	<mvc:resources mapping="/style/**" location="/style/"/>  
+</beans> 

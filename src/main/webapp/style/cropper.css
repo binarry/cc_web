@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+	overflow: hidden;
+	border: 1px solid #85ACC6;
+	background-color: #fff;
+}
+
+
+
+.btn.btn-default {
+	height: 24px;
+	border-radius: 0px;
+	padding: 2px 15px;
+	font-size: 12px;
+
+    background-color: #3EACDF;
+    color: #fff;
+    margin-right: 5px;
+    border: none;
+}
+
+
+.btn.btn-default.btn_reset {
+	background-color: #EDEDED;
+	border: none;
+	color: #5e5e5e;
+}

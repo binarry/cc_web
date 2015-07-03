@@ -1,0 +1,844 @@
+@charset "UTF-8";
+
+
+*{
+	font: "Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif;
+	/*color: #3EACDF;*/
+	color: #808080;
+}
+
+body {
+	border: 1px solid #85ACC6;
+	background-color: #fff;
+	padding-top: 0px;
+	overflow-y:hidden;
+	height: 100vh;
+}
+
+.container-fluid{
+	margin-top: 0px;
+    padding: 0px 0px;
+    height: 100%;
+}
+
+.panel.panel-default.col-sm-12{
+	/*width: 100%;*/
+	padding: 0px;
+	margin: 0px;
+	border-radius: 0px;
+	border: none;
+}
+
+.well,.container{
+	border-radius: 0px;
+	
+}
+
+.container{
+	margin-top: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.well {
+	padding: 1% 1%;
+	margin-bottom: 1%;
+	background-color: #F8FAF9;
+}
+
+.panel-body{
+	padding: 1%;
+}
+
+.profile_pic,img{
+	width: 80%;
+	/*height: 80%;*/
+	padding: 6%;
+/*	width: 17%;
+	height: 17%;*/
+}
+
+.col-xs-3,.col-xs-10,.col-xs-12,.col-xs-5,.col-xs-7{
+	padding: 0px;
+}
+
+.col-xs-7{
+	padding-right: 1%;
+}
+
+.profile_container{
+}
+
+hr{
+	margin: 1% 0;
+	margin-bottom: 1%;
+}
+
+h3,h4{
+	margin-top: 0%;
+	margin-bottom: 1%
+}
+
+h4{
+	margin-bottom: 1%;
+}
+
+
+.col-xs-3 span {
+	font-size: 12px;
+	color: #808080;
+}
+
+.girdinfo_modal .col-xs-3 {
+	padding-right: 0px;
+	padding-left:2px; 
+}
+
+.well.chart_area{
+	background-color: #fff;
+	padding-top: 1%;
+	padding-bottom: 0px;
+	height: 50%;
+}
+
+.chart_table{
+	border: 1px solid #E3E3E3;
+	margin-bottom: 1%;
+}
+
+.btn.btn-default {
+	margin-right: 1%;
+	border-radius: 0px;
+    font-size: 12px;
+    padding: 1px 6px;
+    background-color:#f9f9f9;
+}
+
+.btn-group{
+	width: 100%;
+}
+
+i.pull-right.glyphicon.glyphicon-chevron-down {
+	margin-top: 3px;
+	font-size: 11px;
+}
+.panel-default>.panel-heading{
+	padding: 10px;
+	background-color: #F8FAF9;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-top: 8px;
+}
+
+.btn.btn-default.place {
+	color: #fff;
+	background-color: #3EACDF;
+	border: none;
+}
+span.unit_number{
+	color: #3EACDF;
+}
+span.place_number{
+	color:#fff;
+}
+
+.close_btn {
+    /*position: relative;*/
+    /*padding: 2px 9px;*/
+    /*top: -4px;*/
+    text-align: center;
+    width: 25px;
+    background-color: #DBDBD9;
+    /*left: 198px;*/
+    /*border-radius: 20px;*/
+}
+
+
+.close_btn a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.modal-header .close_btn {
+	position: relative;
+	top: -1px;
+}
+
+.clear_padding{
+	padding: 0px;
+}
+
+h4.profile_container{
+	margin-top: 1%;
+}
+
+.chart_area .well {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-bottom: 2px;
+}
+.well.chart_area .row{
+	margin-bottom: 2px;
+}
+.addr{
+	color: #8C8C8C;
+	font-size: 11px;
+}
+
+.well.addr{
+	padding: 6px 15px;
+	border: none;
+}
+
+
+.form-group.query_constrain label{
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 4px;
+}
+
+.constrain_group{
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #8c8c8c;
+	margin-bottom: 8px;
+}
+
+form .query_constrain:last-child .constrain_group{
+	border-bottom: none;
+}
+
+.constrain_group>div{
+	height: 20px;
+}
+
+.population_table_container{
+	padding-right: 0px;
+	padding-left: 10px;
+}
+.population_table{
+}
+.well.chart_area.table{
+	padding-top: 0px;
+	padding-right: 0px;
+	border-right: 0px;
+}
+.population_table_container .well{
+	background-color: #EFF4F8;
+	border-top: 0px;
+	border-bottom: 0;
+	margin-bottom: 0px;
+}
+
+.clear_padding.add_top_padding{
+    padding-top: 8px;
+}
+
+.population_table_container .well:last-child{
+	background-color: #fff;
+}
+
+
+.population_table_container .fixed-table-container thead th .th-inner{
+	background-color: #54A7D5;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	padding: 4px 9px;
+	height: 32px;
+
+}
+
+.population_table_container .fixed-table-container thead th:not(:first-child) .th-inner{
+
+	padding: 4px 38px;;
+}
+
+.population_table_container .fixed-table-container thead th:not(:first-child) .th-inner:hover{
+
+	cursor: pointer;
+}
+
+
+.population_table_container .fixed-table-container tbody td:not(:first-child):hover{
+
+	cursor: pointer;
+}
+
+
+.population_table_container .fixed-table-container tbody tr td{
+	font-size: 12px;
+	padding: 9px 8px;
+	background-color: #F6F4F5;;
+}
+
+/*.population_table_container .fixed-table-container tbody tr td.pink_background{
+
+}
+*/
+.pink_block,.blue_block,.red_block{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+}
+
+.pink_block, .pink_background{
+	background-color: #F4CDCE !important; 
+}
+
+.red_block, .red_background{
+	background-color: #FA8687 !important;
+}
+
+.blue_block, .blue_background{
+	background-color: #88BCD4 !important;
+}
+
+
+
+.population_table_container .well:last-child span{
+	line-height: 1;
+	position: relative;
+	top: 4px;
+	text-align: right;
+}
+
+.population_table_container .well:last-child span:nth-child(even){
+	padding-left: 3px;
+	text-align: right;
+	/*margin-right: 10px;*/
+}
+
+
+
+.population_table_container .well:last-child span:nth-child(odd){
+    position: relative;
+    top: 6px;
+}
+
+.population_table_container .col-xs-4.clear_padding{
+	text-align: right;
+}
+.population_table_container .well:last-child .col-xs-3.clear_padding.col-xs-offset-1{
+	text-align: right;
+}
+
+
+
+
+.arrow{
+  /*padding: 5px; */
+  float: right;
+  /* background: red; */
+  /* transform: rotate(90deg); */
+  -moz-transform: rotate(90deg);
+  /* -webkit-transform: rotate(45deg); */
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 0px;
+  height: 0px;
+  border-top: 8px solid transparent;
+  border-right: 8px solid white;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid transparent;
+  /* margin-top: 7px; */
+  z-index: 999;
+  position: relative;
+  bottom: 45%;
+  right: 19%;
+/*  display: none;*/
+ /*  right: 94%;
+  top: -60%; */
+  display: none; 
+}
+
+.bootstrap-table .fixed-table-header .population_table thead tr th:first-child .arrow{
+	display: none;
+
+
+}
+
+.cell_active .arrow {
+	display: block;
+}
+
+
+.unit_info{
+	display: inline-block;
+	width: 15px;
+    height: 15px;
+    position: relative;
+    top: 1px;
+    background-color: #FC860C;
+    left: 27px;
+    text-align: center;
+    color: white;
+    z-index: 100;
+    font-size: 11px;
+}
+
+
+.unit_info_angle{
+  float: right;
+  /* background: red; */
+  /* transform: rotate(90deg); */
+  -moz-transform: rotate(90deg);
+  /* -webkit-transform: rotate(45deg); */
+  -o-transform: rotate(90deg);
+  transform: rotate(45deg);
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-right: 4px solid #FC860C;
+  border-bottom: 4px solid transparent;
+  border-left: 9px solid transparent;
+  /* margin-top: 7px; */
+  position: relative;
+  right: 49%;
+  z-index: 1;
+  top: -53%;
+}
+
+
+.well.chart_area.table span:not(.unit_info){
+	color: #808080;
+	font-size: 12px;
+}
+.well.chart_area span:not(.unit_info){
+	font-size: 13px;
+	color: #3EACDF;
+}
+
+
+
+
+
+
+
+
+.admin_table.building .nav_blue .navbar.navbar-default.nav_blue{
+	border: none;
+	background-color: #4EA1CD;
+	border-radius: 0px;
+	height: 10px;
+	min-height: 32px;
+	margin-bottom: 7px;
+	font-size: 12px;;
+	/*padding-top: 1px;
+	padding-bottom: 1px;*/
+}
+
+
+.admin_table.building .nav_blue .navbar-default.nav_blue .navbar-nav.nav_blue>li>a{
+	color: white;
+	padding: 6px 20px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	background-color: #4EA1CD;
+}
+
+
+/*.admin_table.building .nav_blue .navbar-default.nav_blue .navbar-nav.nav_blue>li>a:focus,.admin_table.building .nav_blue .navbar-default.nav_blue .navbar-nav.nav_blue>li>a:hover{
+	background-color: #4EA1CD;
+	color: white;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	font-size: 13px
+}
+*/
+
+
+.admin_table.work_page.building .navbar.navbar-default .navbar-left.navbar-nav>li>a{
+	padding-left: 15px;
+}
+
+.panel.panel-default.col-sm-12.girdinfo_modal.admin_table.work_page.building{
+	  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
+  box-shadow: 0 0px 0px rgba(0,0,0,.05);
+}
+
+
+.panel.form_area .panel-heading{
+	background-color: #F2F2F2;
+	border-radius: 0px;
+	color: #808080;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.panel.form_area .container{
+	margin-left: 0px;
+	margin: 0px;
+}
+
+.panel.form_area .panel-body {
+  padding: 2%;
+  padding-top: 5px;
+}
+.panel.form_area .row{
+	margin-bottom: 5px;
+}
+.panel.form_area .panel-body label{
+	text-align: right;
+	font-size: 12px;
+	font-weight: normal;
+}
+.work_page .panel.form_area{
+	border: 1px solid #e7e7e7;
+	 max-height: 90%;
+	/*margin-top: -4px;*/
+}
+
+
+
+.panel.form_area img{
+	display: block;
+	margin: 0 auto;
+	float: right;
+}
+
+.panel.form_area>.col-xs-2{
+}
+.panel.form_area .img_area{
+	padding: 0px;
+}
+
+.nav_blue .active .arrow {
+	display: block;
+	position: relative;
+	top: -11px;
+	right: 37px;
+}
+
+
+
+.admin_table.building .nav_blue .navbar-default.nav_blue .navbar-nav.nav_blue>li>a.active{
+     color: white;
+
+	font-weight: bold;
+	font-size: 13px;
+}
+
+
+ul.nav.navbar-nav.navbar-left.nav_blue {
+  height: 20px;
+}
+
+
+#tab-container ul.nav.navbar-nav.navbar-left.nav_blue {
+	clear: both;
+	height: 32px;
+}
+
+
+#tabs_resident_info .navbar.navbar-default,#tabs_resident_history .clear_float, #tabs_key_resident .clear_float, #tabs_care_resident .clear_float, #tabs_special_resident .clear_float{
+	clear: both;
+}
+
+#tabs_resident_history .clear_float, #tabs_key_resident .clear_float, #tabs_care_resident .clear_float, #tabs_special_resident .clear_float{
+	height: 10px;
+}
+
+.clear_float{
+	height: 10px;
+}
+
+#tabs_building_info .well{
+	background-color: #fff;
+	padding: 20px;
+	clear: both;
+	height: 1100%;
+}
+#tabs_building_info .well .form-inline .row{
+	margin-bottom: 5px;
+}
+
+#tabs_building_info .well .form-inline .row .col-xs-2,#tabs_building_info .well .form-inline .row .col-xs-3{
+	padding:0px;
+	padding-right: 15px;
+
+}
+
+#tabs_building_info .well .form-inline .row label{
+	font-weight: normal;
+	text-align: right;
+	
+}
+
+
+#tab-container label{
+	position: relative;
+	top: 2px;
+}
+
+
+#tabs_building_info .well .form-inline .row label ~ span{
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+
+#tabs_resident_info .well{
+	clear: both;
+	background-color: #fff;
+	padding: 20px;
+	height: 1100%;
+}
+#tabs_resident_info .well .form-inline .row{
+	margin-bottom: 5px;
+}
+
+#tabs_resident_info .well .form-inline .row .col-xs-2,#tabs_resident_info .well .form-inline .row .col-xs-3{
+	padding:0px;
+	padding-right: 15px;
+
+}
+
+#tabs_resident_info .well .form-inline .row label{
+	font-weight: normal;
+	text-align: right;
+	
+}
+
+#tabs_resident_info .well .form-inline .row label ~ span{
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+#tabs_family_info .well{
+	clear: both;
+	background-color: #fff;
+	padding: 20px;
+	height: 300%;
+}
+#tabs_family_info .well .form-inline .row{
+	margin-bottom: 5px;
+}
+
+#tabs_family_info .well .form-inline .row .col-xs-2,#tabs_family_info .well .form-inline .row .col-xs-3{
+	padding:0px;
+	padding-right: 15px;
+
+}
+
+#tabs_family_info .well .form-inline .row label{
+	font-weight: normal;
+	text-align: right;
+	
+}
+
+#tabs_family_info .well .form-inline .row label ~ span{
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+#tabs_busi_info .well{
+	clear: both;
+	background-color: #fff;
+	padding: 20px;
+	height: 1100%;
+}
+#tabs_busi_info .well .form-inline .row{
+	margin-bottom: 5px;
+}
+
+#tabs_busi_info .well .form-inline .row .col-xs-2,#tabs_busi_info .well .form-inline .row .col-xs-3{
+	padding:0px;
+	padding-right: 15px;
+
+}
+
+#tabs_busi_info .well .form-inline .row label{
+	font-weight: normal;
+	text-align: right;
+	
+}
+
+#tabs_busi_info .well .form-inline .row label ~ span{
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+
+#tab-container .checkbox_area>div{
+	text-align: right;
+	padding: 0px;
+}
+
+#tab-container .checkbox_area label{
+	text-align: left;
+}
+
+/* #tabs_special_resident .radio_area .col-xs-2, #tabs_special_resident .radio_area .col-xs-1{ */
+/*     padding: 0px; */
+/* } */
+
+/* #tabs_special_resident .panel.form_area .panel-body{ */
+/* 	padding-right: 5%; */
+/* } */
+
+
+.nav_blue span.pull-right.seprator{
+  position: relative;
+  color: white;
+  top: -19px;
+}
+
+.modal:not(.bootbox) .modal-content {
+	border-radius: 0px;
+	width: 750px;
+	margin-left: -75px;
+}
+
+.modal:not(.bootbox) .modal-header {
+  background-color: #F2F2F2;
+  padding: 5px 15px;
+  color: #3F3F3F;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.modal:not(.bootbox) .modal-footer{
+  padding: 5px 15px;
+  padding-bottom: 5px;
+  height: 35px
+}
+
+body.for_resident_special{
+	border: none;
+}
+
+.for_resident_special  .admin_table .navbar.navbar-default{
+	border: 1px solid #e7e7e7;
+	border-radius: 0px;
+	min-height: 34px;
+	height: 34px;
+     border-radius: 0px;
+    background-color: #f6f6f6;
+     position: relative;
+}
+
+
+
+.for_resident_special .admin_table .navbar.navbar-default .navbar-left.navbar-nav>li>a{
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 15px;
+}
+body.for_resident_special label{
+	font-weight: normal;
+	text-align: right;
+	margin-bottom: 0px;
+}
+
+
+.fixed-table-pagination .page-list{
+	display: none;
+}
+
+.fixed-table-pagination .pagination, .fixed-table-pagination .pagination-detail{
+	margin-top:0px;
+}
+
+.add_bottom_padding{
+	padding-bottom: 1%;
+}
+
+#roomAddrQ,#nameOrIdentify{
+	position: relative;
+	top: 3px;
+	left: 2px;
+}
+
+ul.nav.navbar-nav.navbar-left.nav_blue li{
+	padding-bottom: 0px;
+	height: 30px;
+}
+
+.clear_left_border{
+	border-left: none;
+}
+
+.full_height{
+	height: 100%;
+}
+
+
+.modal:not(.bootbox) .modal-body{
+	padding: 5px;
+	display: table;
+	width: 100%;
+}
+
+.modal-open .modal{
+	overflow: hidden;
+}
+
+.scrollbar_container_inside{
+	position:relative;
+	height:100%;
+}
+
+.btn.btn-default.clear_cursor_style:hover{
+	cursor:default;
+
+}
+
+
+.population_table_container ul>li .arrow{
+	  right: 11px !important;
+}
+
+.population_table_container ul>li span.pull-right.seprator{
+	z-index: 1px !important;
+}
+
+#left_residentDate{
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#unitTab{
+	overflow-x:hidden;
+	overflow-y:auto;
+	white-space:nowrap !important;
+}
+
+.well.chart_area.table.clear_padding{
+	display: block;
+}
+
+
+.col-xs-6.clear_padding.add_top_padding .form-group.query_constrain .col-xs-4{
+	padding: 0px;
+	padding-left: 5px;
+}
+
+.roominfo_label{
+	margin-left: 10px;
+	padding-right: 0px;
+}
+
+
+.search_pop{
+	overflow-y:auto;
+	overflow-x:hidden;
+	/*width: 100%;*/
+}
+
+
+/* ul#unitTab>li{
+	clear: both;
+} */

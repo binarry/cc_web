@@ -1,0 +1,321 @@
+body {
+    background-color: #F6F7FB;
+}
+@-webkit-keyframes fadeInRight {
+0% {
+opacity: 0;
+-webkit-transform: translateX(20px);
+}
+100% {
+opacity: 1;
+-webkit-transform: translateX(0);
+}
+}
+@-moz-keyframes fadeInRight {
+0% {
+opacity: 0;
+-moz-transform: translateX(20px);
+}
+100% {
+opacity: 1;
+-moz-transform: translateX(0);
+}
+}
+@-o-keyframes fadeInRight {
+0% {
+opacity: 0;
+-o-transform: translateX(20px);
+}
+100% {
+opacity: 1;
+-o-transform: translateX(0);
+}
+}
+@keyframes fadeInRight {
+0% {
+opacity: 0;
+transform: translateX(20px);
+}
+100% {
+opacity: 1;
+transform: translateX(0);
+}
+}
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.animated {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -ms-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url('../fonts/sourcesanspro/sourcesanspro-light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('../fonts/sourcesanspro/sourcesanspro.woff') format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url('../fonts/sourcesanspro/sourcesanspro-bold.woff') format('woff');
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    zoom: 1;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+    height: 1%;
+}
+/* End hide from IE-mac */
+.bg-light.lter, .navbar, .navbar, .bg-light .bg, .bg-light .lt, .bg-light {
+    background-color: #28B9E5;
+    color: #fff;
+}
+.nav-xs .nav-primary > ul ul {
+    background-color: #fff;
+}
+.Retmenu {
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+.Retmenu a {
+    float: right;
+    margin-right: 25px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.vbox+ aside {
+    border-right: 1px solid #D8E2E8;
+}
+.nav-primary ul.nav > li li a {
+    padding-left: 45px;
+}
+li + .active > a span, .active > a span {
+    color: #4DC3E8;
+}
+.nav  li  li:hover a span {
+    color: #4DC3E8;
+}
+.nav .open {
+    z-index: auto;
+}
+.nav .open .auto  .text-active {
+    display: inline-block !important;
+}
+.nav .open .auto  .text {
+    display: none !important
+}
+.nav-primary ul.nav > li > a {
+    padding: 10px 12px;
+}
+.nav-primary li > a > i {
+    width: 37px;
+    height: 37px;
+}
+.navbar-right > a {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin-right: 15px;
+}
+.dropdown-menu > li > a {
+    font-size: 12px;
+}
+.nav-xs .nav-primary > ul > li:hover > a i, .nav-xs .nav-primary > ul > li:focus > a i, .nav-xs .nav-primary > ul > li:active > a i, .nav-xs .nav-primary > ul > li.active > a i {
+    margin-top: 0;
+}
+.nav-primary ul.nav > li > a:hover span {
+    color: #545a5f;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    color: #545a5f;
+}
+aside {
+    font-family: "微软雅黑";
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-top: 2px solid #E1E8EE;
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-heading .accordion-toggle {
+    color: #0098FE;
+    font-size: 15px;
+    font-weight: 600;
+}
+.col-lg-6 > .panel-default > .panel-body {
+    padding: 0;
+}
+.Listitems {
+    padding: 5px 15px 0 15px;
+}
+.Listitems .Title {
+    font-size: 15px;
+    color: #8F8E8E;
+}
+.Listitems .list {
+    font-size: 12px;
+    color: #2d2d2d;
+}
+.businessOverview > p {
+    margin-bottom: 10px;
+}
+.mg-t60 {
+    margin-top: 60px;
+}
+.navbar-header  .navbar-brand {
+    padding: 0 20px;
+}
+.businessOverview {
+    position: absolute;
+    width: 130px;
+    margin-left: 20px;
+}
+.businessOverview .Yesterday {
+    display: block;
+    font-size: 18px;
+    color: #AEADAB;
+    float: left;
+}
+.businessOverview  .Quantity {
+    display: block;
+    color: #2d2d2d;
+    font-size: 36px;
+    float: left;
+}
+.businessOverview .rate {
+    background-color: #EEEFED;
+    color: #F8945D;
+    float: left;
+    margin-left: 5px;
+    margin-top: 18px;
+    width: auto;
+    padding-right: -2px;
+}
+.header-md .navbar-nav > li > a {
+    padding-left: 17px;
+}
+.badge, .badge-sm {
+    font-size: 85%;
+    width: 16px;
+    height: 16px;
+    line-height: 12px;
+    padding: 2px 5px !important;
+}
+.app, .app body {
+    overflow-y: scroll;
+}
+html, body, #container {
+    height: 100%;
+}
+body #container {
+    height: auto;
+    min-height: 94.6%;
+}
+html, body, #content .scrollable {
+    overflow: visible;
+    min-height: 100%;
+}
+#content {
+    padding-bottom: .1em;
+}
+#footer{
+    clear:both;
+    position:relative;
+    z-index:10;
+    margin-top:-10px;
+}
+
+#main, #myChart2, #myChart3 {
+    max-width: 550px;
+}
+.vbox > section.w-f-md {
+    bottom: 10px;
+}
+.vbox > section.w-f-md, .vbox > section.w-f {
+    bottom: 60px;
+}
+.footer {
+    z-index: 888;
+    width: 100%;
+    background-color: #D8DAD9;
+}
+.footer .webside {
+    height: 150px;
+}
+.footer .lk {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .lk a {
+    margin-right: 10px;
+    white-space: nowrap;
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+.bnTitle {
+    font-size: 18px;
+    display: inline-block;
+    padding: 30px 0;
+}
+.lk .x li {
+    width: 1200px;
+    margin: auto 0;
+    float: left;
+    margin-right: 5px;
+    width: 88px;
+    height: 1.5em;
+    overflow: hidden;
+}
+.footer .about {
+    padding: 10px;
+    height: 50px;
+    line-height: 35px;
+    background-color: #D8DAD9;
+    color: #838483;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+    text-decoration: none;
+}
+.footer  .about a {
+    display: inline-block;
+    padding: 8px;
+}
+.footer  .about p {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 14px;
+}

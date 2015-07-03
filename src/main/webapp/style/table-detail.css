@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+q.content_center {
+	text-align: center;
+}
+
+body.main_body{
+	/*border: 5px dashed pink;
+	border-bottom: 10px solid blue;*/
+	height: 99vh;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+.main_body {
+	margin-bottom: 10px;
+	padding-left: 2px;
+	/* padding-right: 0px; */
+	/*height: 531px;*/
+	/*width: 1012px;*/
+	/*overflow: hidden;*/
+}
+
+/*.input_select.form-control {
+	border-radius: 0px;
+	margin-left: 5px;
+	margin-right: 12px;
+	height:25px;
+	width: 140px;
+	font-size: 12px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	line-height: 0px;
+}*/
+
+.admin_table .form-group label{
+    font-size: 12px;
+    font: "Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif;
+    font-weight: bold;
+    color:#5e5e5e;
+}
+
+.admin_table .btn.btn-default {
+	height: 24px;
+	border-radius: 0px;
+	padding: 2px 15px;
+	font-size: 12px;
+
+    background-color: #3EACDF;
+    color: #fff;
+    margin-right: 5px;
+}
+
+
+.admin_table .form-inline .btn.btn-default {
+	float: right;
+}
+
+
+
+
+
+.admin_table .navbar.navbar-default .navbar-left.navbar-nav>li>a{
+	/*height: 10px;*/
+	font-size: 12px;
+	color: #000;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-left: 0px;
+	padding-bottom: 0px;;
+}
+
+
+
+.admin_table .navbar.navbar-default .navbar-right.navbar-nav>li>a{
+	padding-top: 7px;
+	padding-bottom: 0px;
+
+}
+
+.admin_table .navbar.navbar-default .navbar-right.navbar-nav>li span{
+	margin-right: 15px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.admin_table .navbar.navbar-default .navbar-right.navbar-nav .glyphicon{
+	color: #3EACDF;
+}
+
+
+.admin_table .navbar {
+	min-height: 34px;
+	height: 34px;
+	border-radius: 0px;
+	background-color: #f6f6f6;
+	/*margin-bottom: 17px;*/
+	margin-bottom: 0px;
+}
+
+.admin_table .glyphicon {
+	font-size: 12px;
+	/*position: relative;
+	top: -1px;*/
+	font-weight: bold;
+	margin-right: 4px;
+	color: #9c9d9f;
+}
+
+.admin_table .order_option{
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+.admin_table .glyphicon.glyphicon-plus {
+	color: #3EACDF;
+}
+.admin_table thead th{
+	font-size: 12px;
+}
+
+.admin_table thead {
+	font: "Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif;
+    font-weight: bold;
+    background-color:#F6F6F6;
+    color:#5e5e5e;
+}
+
+.admin_table tbody{
+	font: "Hiragino Sans GB","Microsoft YaHei","Wenquanyi Micro Hei",sans-serif;
+    color:#626262;
+    font-size: 11px;
+}
+ 
+.admin_table .check_cell {
+	text-align: center;
+	font-size: 25px;
+}
+
+.admin_table table tr td span {
+	margin: 0 5px;
+}
+
+.admin_table tbody>tr:nth-child(even)>td {
+	background-color: #f9f9f9
+}
+
+/*.admin_table .pagination {
+	position: relative;
+	top: -24px;
+	float: left;
+}
+
+.admin_table .pager {
+	float: right;
+	position: relative;
+	top: -24px;
+}
+*/
+.admin_table #table_title {
+	margin-bottom: 0px;
+	background-color: #f9f9f9;
+} 
+
+.admin_table .pagination>.active>a {
+	background-color: #3EACDF;
+}
+
+.admin_table .bootstrap-table {
+	margin-top: 0px;
+	position: relative;
+}
+
+.admin_table .clearfix {
+	height: 28px;
+	margin-top: 0px;
+}
+
+.admin_table .pagination, .admin_table .pagination-info {
+	margin-bottom: 0px;
+	margin-top: 5px;
+}
+
+.admin_table #table_title a {
+	color: #3EACDF;
+}
+
+.admin_table .pagination li {
+	font-size: 11px;
+}
+
+.admin_table .fixed-table-pagination .pagination a {
+	padding: 4px 10px;
+}
+
+.admin_table .pagination .page-first, .admin_table .pagination .page-last {
+	display: none;
+}
+
+.admin_table .pagination {
+}
+
+.admin_table thead th .th-inner {
+	padding: 5px 8px;
+	line-height: 22px;
+	background-color: #f6f6f6;;
+}
+
+.admin_table .table>tbody>tr>td {
+	padding: 7px 8px;
+	border-bottom: none;
+	border-top: none;;
+}
+
+.admin_table .fixed-table-container .bs-checkbox .th-inner {
+	padding: 10px 0;
+}
+
+.admin_table .form-inline{
+	margin-bottom: 0px;
+	height: 25px;
+}
+
+.admin_table .pagination-detail {
+	color:#5e5e5e;
+    font-size: 11px;
+    margin-bottom: 0;
+    height: 0px;
+}
+
+
+.admin_table  .table-hover tbody > tr:hover > td,
+.admin_table  .table-hover tbody > tr:hover > th {
+  background-color: #3EACDF;
+  color: #fff;
+}
+
+.admin_table  .table-hover tbody > tr:hover > td a,
+.admin_table  .table-hover tbody > tr:hover > th a {
+	color: #fff;
+}
+
+
+/*.btn.btn-default.btn_reset {
+	background-color: #EDEDED;
+	border: none;
+	color: #5e5e5e;
+}*/
+
+
+/*.hide_column {
+	display:none;
+}*/
+.admin_table .btn.btn-default.btn_reset {
+	background-color: #EDEDED;
+	border: none;
+	color: #5e5e5e;
+}
+
+
+.selected_row>td,.selected>td{
+	background-color: #FF9B17 !important;
+	color: #fff;
+}
+
+tr.selected_row>th a,
+tr.selected_row>td a,
+tr.selected>th a,
+tr.selected>td a{
+	color: #fff;
+}
+
+tr.selected_row:hover>td,
+tr.selected_row:hover>th,
+tr.selected:hover>td,
+tr.selected:hover>th{
+	background-color: #3EACDF !important;
+  	color: #fff;
+}
+
+.modal-backdrop.in{
+	filter: alpha(opacity=0); -moz-opacity: 0; -ms-opacity: 0; opacity: 0; 
+}
+
+
+div#progressbar {
+  z-index: 100;
+  position: fixed;
+  top: 45%;
+  width: 50%;
+  left: 25%;
+}
+
+p#uploading_title {
+  z-index: 100;
+  text-align: center;
+  position: fixed;
+  left: 42%;
+  font-weight: bold;
+  top: 58%;
+}
