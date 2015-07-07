@@ -152,57 +152,13 @@
 			<artifactId>zsmartcc-mvc</artifactId>
 			<version>${zsmartcc.framework.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.ztesoft.zsmartcity.cc</groupId>
+			<artifactId>zsmartcc-validate</artifactId>
+			<version>${zsmartcc.framework.version}</version>
+		</dependency>
 		
 
-	<!--  	<dependency>
-
-			<groupId>org.codehaus.jackson</groupId>
-
-			<artifactId>jackson-core-asl</artifactId>
-
-			<version>${jackson.version}</version>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>org.codehaus.jackson</groupId>
-
-			<artifactId>jackson-mapper-asl</artifactId>
-
-			<version>${jackson.version}</version>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>org.codehaus.jackson</groupId>
-
-			<artifactId>jackson-jaxrs</artifactId>
-
-			<version>${jackson.version}</version>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>org.codehaus.jackson</groupId>
-
-			<artifactId>jackson-xc</artifactId>
-
-			<version>${jackson.version}</version>
-
-		</dependency>
-
-		<dependency>
-
-			<groupId>org.codehaus.jackson</groupId>
-
-			<artifactId>jackson-mrbean</artifactId>
-
-			<version>${jackson.version}</version>
-
-		</dependency>-->
 
 		
 	</dependencies>
