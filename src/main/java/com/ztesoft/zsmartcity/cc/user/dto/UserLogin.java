@@ -4,13 +4,14 @@ import java.io.Serializable;
 
 import com.ztesoft.zsmartcc.validate.annotations.NotNull;
 import com.ztesoft.zsmartcc.validate.annotations.Password;
-
+import com.ztesoft.zsmartcc.validate.annotations.ValidateEntity;
+@ValidateEntity
 public class UserLogin implements Serializable{
 	
 	@NotNull
 	private String userCode;
 	
-	@Password
+	@NotNull
 	private String password;
 
 	
